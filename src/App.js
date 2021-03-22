@@ -221,7 +221,7 @@ class App extends Component {
                                         od 15 dnia - pracownik powyżej 50 roku życia
                                     </li>
                                 </ol>
-                                <label> <span style={{color: "red"}}>Podaj podstawę wymiaru wynagrodzenia/zasiłku chorobowego</span>
+                                <label> <span style={{color: "red"}}>Podaj podstawę wymiaru wynagrodzenia/zasiłku chorobowego (średnie wynagrodzenie brutto z ostatnich 12 miesięcy - 13,71%)</span>
                                     <input type="number" value={sickGross} name={"sickGross"}
                                            onChange={this.handleChange}/>
                                 </label>
